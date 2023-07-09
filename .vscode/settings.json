@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "printk.h": "c",
+        "init.h": "c",
+        "kern_levels.h": "c",
+        "linkage.h": "c",
+        "module.h": "c",
+        "stdarg.h": "c",
+        "compiler.h": "c",
+        "usb_stream.h": "c",
+        "core.h": "c",
+        "control.h": "c",
+        "usb.h": "c",
+        "card.h": "c"
+    }
+
+}

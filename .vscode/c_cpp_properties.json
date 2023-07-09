@@ -1,0 +1,43 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/lib/gcc/x86_64-linux-gnu/12/include",
+        "/usr/src/linux-headers-5.15.0-75/include",
+        "/usr/src/linux-headers-5.15.0-75-generic/include",
+        "/usr/src/linux-headers-5.15.0-75/arch/x86/include",
+        "/usr/src/linux-headers-5.15.0-75/arch/x86/include/uapi",
+        "/usr/src/linux-headers-5.15.0-75-generic/arch/x86/include/generated",
+        "/usr/src/linux-headers-5.15.0-75-generic/arch/x86/include/generated/uapi",
+        "/usr/src/linux-headers-5.15.0-75/include/uapi"
+      ],
+      "forcedInclude": [
+        "/usr/src/linux-headers-5.15.0-75-generic/include/linux/compiler_types.h",
+        "/usr/src/linux-headers-5.15.0-75-generic/include/linux/kconfig.h"
+      ],
+      "defines": [
+        "__KERNEL__",
+        "KBUILD_MODNAME",
+        "CONFIG_X86_X32_ABI",
+        "CONFIG_AS_CFI=1",
+        "CONFIG_AS_CFI_SIGNAL_FRAME=1",
+        "CONFIG_AS_CFI_SECTIONS=1",
+        "CONFIG_AS_SSSE3=1",
+        "CONFIG_AS_AVX=1",
+        "CONFIG_AS_AVX2=1",
+        "CONFIG_AS_AVX512=1",
+        "CONFIG_AS_SHA1_NI=1",
+        "CONFIG_AS_SHA256_NI=1",
+        "CC_USING_FENTRY",
+        "MODULE"
+      ],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "c11",
+      "compilerArgs": ["-nostdinc", "-m64"],
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
